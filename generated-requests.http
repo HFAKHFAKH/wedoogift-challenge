@@ -1,0 +1,19 @@
+###
+POST http://localhost:8080/distribute/meal
+Content-Type: application/json
+
+{"user": 1, "balance": 1.0}
+
+###
+POST http://localhost:8080/distribute/gift
+Content-Type: application/json
+
+{"user": 1, "balance": 100.0}
+
+
+###
+GET http://localhost:8080/balance/meal/1
+
+
+###
+GET http://localhost:8080/balance/gift/1
